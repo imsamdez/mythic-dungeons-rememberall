@@ -5,9 +5,7 @@ import React from 'react';
  * Default layout used by routes
  */
 export const BasicLayout = ({component: Component, ...props}) => (
-  <div>
-    <div>
-      <Component {...props} />
-    </div>
+  <div className="layout-basic">
+    <Component {...props} />
   </div>
 );

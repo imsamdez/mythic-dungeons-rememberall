@@ -8,9 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
-          <PublicRoute exact component={Home} path={ROUTE_HOME}></PublicRoute>
-        </div>
+        <PublicRoute exact component={Home} path={ROUTE_HOME}></PublicRoute>
       </Router>
     );
   }

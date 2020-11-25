@@ -1,0 +1,17 @@
+@import './../../../../Colors';
+
+.home-header {
+  display: flex;
+  padding: 30px 62px;
+
+  .item {
+    color: $color5;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    .value {
+      color: #ffffff;
+      text-transform: lowercase;
+    }
+  }
+}

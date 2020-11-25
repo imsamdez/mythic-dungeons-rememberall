@@ -1,0 +1,29 @@
+.s-home {
+  height: 100%;
+  background-image: url(./imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .wrapper {
+    height: 600px;
+    padding-top: 150px;
+    padding-left: 62px;
+
+    .home-title {
+      margin-bottom: 125px;
+    }
+
+    .dungeons {
+      display: flex;
+      max-width: 1000px;
+      flex-wrap: wrap;
+
+      .card-dungeon {
+        margin-bottom: 22px;
+        &:nth-child(odd) {
+          margin-right: 22px;
+        }
+      }
+    }
+  }
+}
