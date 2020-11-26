@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {
+  ROUTE_DG_MOTS,
   ROUTE_DG_PF,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
@@ -37,9 +38,11 @@ class Home extends React.Component {
                 region="maldraxxus"
                 name="Theater of Pain"></CardDungeon>
             </Link>
-            <CardDungeon
-              region="ardenweald"
-              name="Mists of Tirna Scithe"></CardDungeon>
+            <Link to={ROUTE_DG_MOTS}>
+              <CardDungeon
+                region="ardenweald"
+                name="Mists of Tirna Scithe"></CardDungeon>
+            </Link>
             <CardDungeon region="ardenweald" name="Other side"></CardDungeon>
             <CardDungeon
               region="revendreth"

@@ -3,12 +3,14 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {EmptyLayout} from 'router/Layouts';
 import {PublicRoute} from './router/Routes';
 import {
+  ROUTE_DG_MOTS,
   ROUTE_DG_PF,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
   ROUTE_DG_TOP,
   ROUTE_HOME,
 } from './router/routes.const';
+import DungeonMoTS from './scenes/Dungeons/scenes/MoTS';
 import DungeonPF from './scenes/Dungeons/scenes/PF';
 import DungeonSoA from './scenes/Dungeons/scenes/SoA';
 import DungeonTNW from './scenes/Dungeons/scenes/TNW';
@@ -40,6 +42,11 @@ class App extends React.Component {
           exact
           component={DungeonToP}
           path={ROUTE_DG_TOP}
+          layout={EmptyLayout}></PublicRoute>
+        <PublicRoute
+          exact
+          component={DungeonMoTS}
+          path={ROUTE_DG_MOTS}
           layout={EmptyLayout}></PublicRoute>
       </Router>
     );
