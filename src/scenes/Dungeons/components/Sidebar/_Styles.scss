@@ -1,0 +1,81 @@
+@import './../../../../Colors';
+
+.dg-sidebar {
+  position: relative;
+  width: 560px;
+  height: 100%;
+  &.region-bastion {
+    background-image: url(./imgs/bg-bastion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &.region-maldraxxus {
+    background-image: url(./imgs/bg-maldraxxus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &.region-ardenweald {
+    background-image: url(./imgs/bg-ardenweald.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &.region-revendreth {
+    background-image: url(./imgs/bg-revendreth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+
+    a {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: $color5;
+      }
+    }
+    .icon-chevron-left {
+      font-size: 23px;
+      margin-right: 14px;
+    }
+    .label {
+      color: $color5;
+      font-weight: 600;
+      .value {
+        color: #ffffff;
+      }
+    }
+  }
+  .title {
+    padding: 36px;
+    margin-top: 50px;
+    font-size: 52px;
+    font-weight: 200;
+
+    .region {
+      margin-left: 3px;
+      font-size: 20px;
+      font-weight: 700;
+      color: $color5;
+      text-transform: uppercase;
+    }
+  }
+  .video-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    iframe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background: #141414;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      box-sizing: border-box;
+    }
+  }
+}

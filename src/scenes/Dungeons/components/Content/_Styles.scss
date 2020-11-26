@@ -1,0 +1,49 @@
+.dg-content {
+  flex: 1 1 auto;
+  height: 100%;
+
+  .content-wrapper {
+    display: flex;
+    height: calc(100% - 65px);
+
+    .content-body {
+      overflow-y: scroll;
+      flex: 1 1 auto;
+      padding-top: 62px;
+    }
+    .content-quick-nav {
+      font-size: 11px;
+      height: 80%;
+      flex: 0 0 160px;
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+      align-self: center;
+      padding: 34px;
+
+      a {
+        display: block;
+        margin-bottom: 12px;
+        color: rgba(255, 255, 255, 0.8);
+        &:hover {
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+  .content-footer {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    & > div {
+      display: flex;
+      align-items: center;
+      color: rgba(255, 255, 255, 0.2);
+      margin-right: 36px;
+
+      i {
+        margin-right: 16px;
+      }
+    }
+  }
+}
