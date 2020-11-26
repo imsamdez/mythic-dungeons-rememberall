@@ -3,6 +3,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {EmptyLayout} from 'router/Layouts';
 import {PublicRoute} from './router/Routes';
 import {
+  ROUTE_DG_HOA,
   ROUTE_DG_MOTS,
   ROUTE_DG_OS,
   ROUTE_DG_PF,
@@ -11,6 +12,7 @@ import {
   ROUTE_DG_TOP,
   ROUTE_HOME,
 } from './router/routes.const';
+import DungeonHoA from './scenes/Dungeons/scenes/HoA';
 import DungeonMoTS from './scenes/Dungeons/scenes/MoTS';
 import DungeonOS from './scenes/Dungeons/scenes/OS';
 import DungeonPF from './scenes/Dungeons/scenes/PF';
@@ -54,6 +56,11 @@ class App extends React.Component {
           exact
           component={DungeonOS}
           path={ROUTE_DG_OS}
+          layout={EmptyLayout}></PublicRoute>
+        <PublicRoute
+          exact
+          component={DungeonHoA}
+          path={ROUTE_DG_HOA}
           layout={EmptyLayout}></PublicRoute>
       </Router>
     );

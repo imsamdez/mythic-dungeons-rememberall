@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {
+  ROUTE_DG_HOA,
   ROUTE_DG_MOTS,
   ROUTE_DG_OS,
   ROUTE_DG_PF,
@@ -47,9 +48,11 @@ class Home extends React.Component {
             <Link to={ROUTE_DG_OS}>
               <CardDungeon region="ardenweald" name="Other side"></CardDungeon>
             </Link>
-            <CardDungeon
-              region="revendreth"
-              name="Halls of Atonement"></CardDungeon>
+            <Link to={ROUTE_DG_HOA}>
+              <CardDungeon
+                region="revendreth"
+                name="Halls of Atonement"></CardDungeon>
+            </Link>
             <CardDungeon
               region="revendreth"
               name="Sanguine depths"></CardDungeon>
