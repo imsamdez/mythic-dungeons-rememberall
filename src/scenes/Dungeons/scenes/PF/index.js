@@ -2,7 +2,6 @@ import classnames from 'classnames';
 import React from 'react';
 import {Content} from '../../components/Content';
 import {Sidebar} from '../../components/Sidebar';
-import './_Styles.scss';
 
 const fakeJson = [
   {
@@ -245,7 +244,7 @@ const fakeJson = [
 ];
 
 export default () => {
-  const classNames = classnames('dungeon-pf');
+  const classNames = classnames('s-dungeon dungeon-pf');
 
   return (
     <div className={classNames}>
