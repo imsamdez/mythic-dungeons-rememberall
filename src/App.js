@@ -7,6 +7,7 @@ import {
   ROUTE_DG_MOTS,
   ROUTE_DG_OS,
   ROUTE_DG_PF,
+  ROUTE_DG_SD,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
   ROUTE_DG_TOP,
@@ -16,6 +17,7 @@ import DungeonHoA from './scenes/Dungeons/scenes/HoA';
 import DungeonMoTS from './scenes/Dungeons/scenes/MoTS';
 import DungeonOS from './scenes/Dungeons/scenes/OS';
 import DungeonPF from './scenes/Dungeons/scenes/PF';
+import DungeonSD from './scenes/Dungeons/scenes/SD';
 import DungeonSoA from './scenes/Dungeons/scenes/SoA';
 import DungeonTNW from './scenes/Dungeons/scenes/TNW';
 import DungeonToP from './scenes/Dungeons/scenes/ToP';
@@ -61,6 +63,11 @@ class App extends React.Component {
           exact
           component={DungeonHoA}
           path={ROUTE_DG_HOA}
+          layout={EmptyLayout}></PublicRoute>
+        <PublicRoute
+          exact
+          component={DungeonSD}
+          path={ROUTE_DG_SD}
           layout={EmptyLayout}></PublicRoute>
       </Router>
     );

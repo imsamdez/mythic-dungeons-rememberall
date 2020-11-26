@@ -5,6 +5,7 @@ import {
   ROUTE_DG_MOTS,
   ROUTE_DG_OS,
   ROUTE_DG_PF,
+  ROUTE_DG_SD,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
   ROUTE_DG_TOP,
@@ -53,9 +54,11 @@ class Home extends React.Component {
                 region="revendreth"
                 name="Halls of Atonement"></CardDungeon>
             </Link>
-            <CardDungeon
-              region="revendreth"
-              name="Sanguine depths"></CardDungeon>
+            <Link to={ROUTE_DG_SD}>
+              <CardDungeon
+                region="revendreth"
+                name="Sanguine depths"></CardDungeon>
+            </Link>
           </div>
         </div>
       </div>
