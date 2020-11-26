@@ -1,0 +1,23 @@
+.footer {
+  display: grid;
+  grid-template-columns: 48% 4% 48%;
+  padding: 14px;
+  text-transform: uppercase;
+  color: #363636;
+
+  div:nth-child(1) {
+    text-align: right;
+  }
+  div:nth-child(3) {
+    text-align: left;
+  }
+
+  .separator {
+    position: relative;
+    width: 8px;
+    height: 1px;
+    background: #363636;
+    align-self: center;
+    justify-self: center;
+  }
+}

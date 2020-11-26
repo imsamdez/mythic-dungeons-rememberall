@@ -1,3 +1,4 @@
+import Footer from 'components/Footer';
 import React from 'react';
 
 /**
@@ -7,5 +8,6 @@ import React from 'react';
 export const BasicLayout = ({component: Component, ...props}) => (
   <div className="layout-basic">
     <Component {...props} />
+    <Footer></Footer>
   </div>
 );
