@@ -20,3 +20,12 @@ body {
   height: 100%;
   position: relative;
 }
+
+a {
+  color: $color5;
+  text-decoration: none;
+  transition: all ease-out 100ms;
+  &:hover {
+    color: transparentize($color: $color5, $amount: 0.3);
+  }
+}
