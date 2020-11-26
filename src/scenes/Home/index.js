@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import {ROUTE_DG_PF} from 'router/routes.const';
 import {CardDungeon} from './components/CardDungeon';
 import Header from './components/Header';
 import Title from './components/Title';
@@ -18,7 +20,10 @@ class Home extends React.Component {
             <CardDungeon
               region="bastion"
               name="Spires of Ascension"></CardDungeon>
-            <CardDungeon region="maldraxxus" name="Plaguefall"></CardDungeon>
+            <Link to={ROUTE_DG_PF}>
+              <CardDungeon region="maldraxxus" name="Plaguefall"></CardDungeon>
+            </Link>
+
             <CardDungeon
               region="maldraxxus"
               name="Theater of Pain"></CardDungeon>
@@ -28,7 +33,7 @@ class Home extends React.Component {
             <CardDungeon region="ardenweald" name="Other side"></CardDungeon>
             <CardDungeon
               region="revendreth"
-              name="The necrotic wake"></CardDungeon>
+              name="Halls of Atonement"></CardDungeon>
             <CardDungeon
               region="revendreth"
               name="Sanguine depths"></CardDungeon>
