@@ -245,7 +245,7 @@ const fakeJson = [
 ];
 
 export default () => {
-  const classNames = classnames('dungeon-tnw');
+  const classNames = classnames('dungeon-pf');
 
   return (
     <div className={classNames}>
