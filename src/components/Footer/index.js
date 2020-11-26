@@ -6,9 +6,9 @@ export default () => {
     <div className="footer">
       <div>
         <a href="https://github.com/imsamdez/mythic-dungeons-rememberall">
-          Open source
+          Open source project
         </a>{' '}
-        project made by a <a href="https://twitter.com/samnameless">wower</a>
+        made by a <a href="https://twitter.com/samnameless">wower</a>
       </div>
       <div className="separator"></div>
       <div>
