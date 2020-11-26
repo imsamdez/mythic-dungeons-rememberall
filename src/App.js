@@ -4,6 +4,7 @@ import {EmptyLayout} from 'router/Layouts';
 import {PublicRoute} from './router/Routes';
 import {
   ROUTE_DG_MOTS,
+  ROUTE_DG_OS,
   ROUTE_DG_PF,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
@@ -11,6 +12,7 @@ import {
   ROUTE_HOME,
 } from './router/routes.const';
 import DungeonMoTS from './scenes/Dungeons/scenes/MoTS';
+import DungeonOS from './scenes/Dungeons/scenes/OS';
 import DungeonPF from './scenes/Dungeons/scenes/PF';
 import DungeonSoA from './scenes/Dungeons/scenes/SoA';
 import DungeonTNW from './scenes/Dungeons/scenes/TNW';
@@ -47,6 +49,11 @@ class App extends React.Component {
           exact
           component={DungeonMoTS}
           path={ROUTE_DG_MOTS}
+          layout={EmptyLayout}></PublicRoute>
+        <PublicRoute
+          exact
+          component={DungeonOS}
+          path={ROUTE_DG_OS}
           layout={EmptyLayout}></PublicRoute>
       </Router>
     );
