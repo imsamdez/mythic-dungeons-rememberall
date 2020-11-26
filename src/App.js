@@ -6,11 +6,13 @@ import {
   ROUTE_DG_PF,
   ROUTE_DG_SOA,
   ROUTE_DG_TNW,
+  ROUTE_DG_TOP,
   ROUTE_HOME,
 } from './router/routes.const';
 import DungeonPF from './scenes/Dungeons/scenes/PF';
 import DungeonSoA from './scenes/Dungeons/scenes/SoA';
 import DungeonTNW from './scenes/Dungeons/scenes/TNW';
+import DungeonToP from './scenes/Dungeons/scenes/ToP';
 import Home from './scenes/Home';
 
 class App extends React.Component {
@@ -33,6 +35,11 @@ class App extends React.Component {
           exact
           component={DungeonSoA}
           path={ROUTE_DG_SOA}
+          layout={EmptyLayout}></PublicRoute>
+        <PublicRoute
+          exact
+          component={DungeonToP}
+          path={ROUTE_DG_TOP}
           layout={EmptyLayout}></PublicRoute>
       </Router>
     );

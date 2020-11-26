@@ -1,6 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {ROUTE_DG_PF, ROUTE_DG_SOA, ROUTE_DG_TNW} from 'router/routes.const';
+import {
+  ROUTE_DG_PF,
+  ROUTE_DG_SOA,
+  ROUTE_DG_TNW,
+  ROUTE_DG_TOP,
+} from 'router/routes.const';
 import {CardDungeon} from './components/CardDungeon';
 import Header from './components/Header';
 import Title from './components/Title';
@@ -27,9 +32,11 @@ class Home extends React.Component {
             <Link to={ROUTE_DG_PF}>
               <CardDungeon region="maldraxxus" name="Plaguefall"></CardDungeon>
             </Link>
-            <CardDungeon
-              region="maldraxxus"
-              name="Theater of Pain"></CardDungeon>
+            <Link to={ROUTE_DG_TOP}>
+              <CardDungeon
+                region="maldraxxus"
+                name="Theater of Pain"></CardDungeon>
+            </Link>
             <CardDungeon
               region="ardenweald"
               name="Mists of Tirna Scithe"></CardDungeon>
