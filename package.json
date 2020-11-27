@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "release-it --only-version"
+    "release": "release-it --only-version",
+    "merge:stage": "node ./scripts/merge_main_to_stage.js"
   },
   "eslintConfig": {
     "extends": "react-app"
