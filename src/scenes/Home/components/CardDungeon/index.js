@@ -7,7 +7,7 @@ const REGIONS = ['bastion', 'maldraxxus', 'ardenweald', 'revendreth'];
 
 export const CardDungeon = (props) => {
   const {region, name} = props;
-  const classNames = classnames('card-dungeon', {
+  const classNames = classnames('card-dungeon fade-in-right', {
     'region-bastion': region === 'bastion',
     'region-maldraxxus': region === 'maldraxxus',
     'region-ardenweald': region === 'ardenweald',

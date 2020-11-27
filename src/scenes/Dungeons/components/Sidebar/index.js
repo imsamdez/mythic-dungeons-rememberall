@@ -21,7 +21,7 @@ export class Sidebar extends React.Component {
 
   render() {
     const {region, name} = this.props;
-    const classNames = classnames('dg-sidebar', {
+    const classNames = classnames('dg-sidebar fade-in-left', {
       'region-bastion': region === 'bastion',
       'region-maldraxxus': region === 'maldraxxus',
       'region-ardenweald': region === 'ardenweald',

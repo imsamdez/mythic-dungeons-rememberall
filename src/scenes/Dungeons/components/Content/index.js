@@ -14,7 +14,7 @@ export const Content = (props) => {
   const {data} = props;
 
   return (
-    <div className="dg-content">
+    <div className="dg-content fade-in-top">
       <div className="content-wrapper">
         <div className="content-body">
           {data.map((cg) /** creatureGroup */ => (

@@ -18,7 +18,7 @@ import './_Styles.scss';
 class Home extends React.Component {
   render() {
     return (
-      <div className="s-home">
+      <div className="s-home fade-in-right">
         <Header></Header>
         <div className="wrapper">
           <Title></Title>

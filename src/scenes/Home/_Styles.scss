@@ -24,6 +24,13 @@
           margin-right: 22px;
         }
       }
+      @for $i from 1 through 10 {
+        a:nth-child(#{$i}n) {
+          .card-dungeon {
+            animation-delay: #{$i * 50}ms;
+          }
+        }
+      }
     }
   }
 }
