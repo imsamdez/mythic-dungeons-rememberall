@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="Other side"
         region="ardenweald"
-        videoUrl="https://www.youtube.com/embed/PGnaNdSxPQg"></Sidebar>
+        videoId="PGnaNdSxPQg"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

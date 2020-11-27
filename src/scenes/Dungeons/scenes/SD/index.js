@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="Sanguine depths"
         region="revendreth"
-        videoUrl="https://www.youtube.com/embed/OpwX6sQioic"></Sidebar>
+        videoId="OpwX6sQioic"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

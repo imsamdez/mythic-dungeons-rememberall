@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="Spires of Ascension"
         region="bastion"
-        videoUrl="https://www.youtube.com/embed/jeC0peYOB8E"></Sidebar>
+        videoId="jeC0peYOB8E"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

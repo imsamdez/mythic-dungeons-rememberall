@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="Halls of Atonement"
         region="revendreth"
-        videoUrl="https://www.youtube.com/embed/tGiXZq6Gt3M"></Sidebar>
+        videoId="tGiXZq6Gt3M"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="The necrotic wake"
         region="bastion"
-        videoUrl="https://www.youtube.com/embed/y-84bpUWnXc"></Sidebar>
+        videoId="y-84bpUWnXc"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

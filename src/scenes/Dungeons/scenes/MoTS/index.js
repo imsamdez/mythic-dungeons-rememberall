@@ -13,7 +13,7 @@ export default () => {
       <Sidebar
         name="Mist of Tirna Scithe"
         region="ardenweald"
-        videoUrl="https://www.youtube.com/embed/tcdBT17n5oQ"></Sidebar>
+        videoId="tcdBT17n5oQ"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );

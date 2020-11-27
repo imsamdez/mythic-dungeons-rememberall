@@ -5,241 +5,134 @@ import {Sidebar} from '../../components/Sidebar';
 
 const fakeJson = [
   {
-    id: 1,
-    watchAt: 2000,
+    id: 'Gulhe',
     creatures: [
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: '357ml',
+        creatureId: 'LDO7T',
+        focus: 0,
+        creature: {
+          id: 'LDO7T',
+          name: 'Plagueroc',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/4/96772.webp',
+          abilities: [
+            {id: '2mtg6', name: 'Wind Buffet', actions: ['ACTION_DODGE_IT']},
+          ],
+        },
       },
     ],
+    watchAt: 100,
   },
   {
-    id: 2,
-    watchAt: 2000,
+    id: 'f1nbO',
     creatures: [
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: 'Xc345',
+        creatureId: 'yupDi',
+        focus: 0,
+        creature: {
+          id: 'yupDi',
+          name: 'Decaying Flesh Giant',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/119/99191.webp',
+          abilities: [
+            {
+              id: 'J4SXh',
+              name: 'Creepy Crawlers',
+              actions: ['ACTION_SHOULD_BE_KICKED'],
+            },
+          ],
+        },
       },
     ],
+    watchAt: 180,
   },
   {
-    id: 3,
-    watchAt: 2000,
+    id: 'gIDzL',
     creatures: [
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: 'PC5HM',
+        creatureId: '3AUug',
+        focus: 0,
+        creature: {
+          id: '3AUug',
+          name: 'Fungi Stormer',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/165/83621.webp',
+          abilities: [],
+        },
       },
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: 'LmnIM',
+        creatureId: 'eJMu1',
+        focus: 0,
+        creature: {
+          id: 'eJMu1',
+          name: 'Fungalmancer',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
+          abilities: [
+            {
+              id: 'GFeg6',
+              name: 'Wonder grow',
+              actions: ['ACTION_MUST_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
+            },
+            {id: '9mY7W', name: 'Binding Fungus', actions: ['ACTION_DODGE_IT']},
+          ],
+        },
+      },
+      {
+        id: 'Gd9dc',
+        creatureId: 'Ym32w',
+        focus: 0,
+        creature: {
+          id: 'Ym32w',
+          name: 'Mire soldier',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/140/83596.webp',
+          abilities: [],
+        },
       },
     ],
+    watchAt: 243,
   },
   {
-    id: 4,
-    watchAt: 2000,
+    id: 'JUpyd',
     creatures: [
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: 'AiykM',
+        creatureId: 'Ym32w',
+        focus: 0,
+        creature: {
+          id: 'Ym32w',
+          name: 'Mire soldier',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/140/83596.webp',
+          abilities: [],
+        },
       },
       {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
+        id: 'nk3br',
+        creatureId: '3AUug',
+        focus: 0,
+        creature: {
+          id: '3AUug',
+          name: 'Fungi Stormer',
+          isBoss: false,
+          imageUrl:
+            'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/165/83621.webp',
+          abilities: [],
+        },
       },
     ],
-  },
-  {
-    id: 5,
-    watchAt: 2000,
-    creatures: [
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 6,
-    watchAt: 2000,
-    creatures: [
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-      {
-        name: 'Fungalmancer',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 7,
-    watchAt: 2000,
-    creatures: [
-      {
-        name: 'Truc',
-        imageUrl:
-          'https://wow.zamimg.com/modelviewer/live/webthumbs/npc/160/83616.webp',
-        abilities: [
-          {
-            name: 'Wonder Grow',
-            actions: ['ACTION_SHOULD_BE_KICKED', 'ACTION_CAN_BE_SPELL_STEAL'],
-          },
-          {
-            name: 'Bindings Fungus',
-            actions: ['ACTION_DODGE_IT'],
-          },
-        ],
-      },
-    ],
+    watchAt: 300,
   },
 ];
 
@@ -251,7 +144,8 @@ export default () => {
       <Sidebar
         name="Plaguefall"
         region="maldraxxus"
-        videoUrl="https://www.youtube.com/embed/ZsxNwwTXZFk"></Sidebar>
+        videoUrl="https://www.youtube.com/embed/ZsxNwwTXZFk"
+        videoId="ZsxNwwTXZFk"></Sidebar>
       <Content data={fakeJson}></Content>
     </div>
   );
