@@ -1,0 +1,19 @@
+name: Scheduled merge main in stage
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *' # Every day at 4am
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Merge'
+        id: merge
+        uses: imsamdez/actions.merge-branch@v1.0.6
+        with:
+          base: stage # Change this according to your need
+          compare: main # Change this according to your need
+          github_token: ${{ secrets.GITHUB_TOKEN }}

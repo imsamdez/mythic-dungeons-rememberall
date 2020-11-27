@@ -1,0 +1,7 @@
+git:
+  requireBranch: 'stage'
+  commit: true
+  push: true
+github:
+  release: true
+  releaseName: 'v${version}'
