@@ -2,8 +2,7 @@ import classnames from 'classnames';
 import React from 'react';
 import {Content} from '../../components/Content';
 import {Sidebar} from '../../components/Sidebar';
-
-const fakeJson = [];
+import data from './data.json';
 
 export default () => {
   const classNames = classnames('s-dungeon dungeon-os');
@@ -14,7 +13,7 @@ export default () => {
         name="Other side"
         region="ardenweald"
         videoId="PGnaNdSxPQg"></Sidebar>
-      <Content data={fakeJson}></Content>
+      <Content data={data}></Content>
     </div>
   );
 };

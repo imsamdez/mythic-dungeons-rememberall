@@ -2,8 +2,7 @@ import classnames from 'classnames';
 import React from 'react';
 import {Content} from '../../components/Content';
 import {Sidebar} from '../../components/Sidebar';
-
-const fakeJson = [];
+import data from './data.json';
 
 export default () => {
   const classNames = classnames('s-dungeon dungeon-hoa');
@@ -14,7 +13,7 @@ export default () => {
         name="Halls of Atonement"
         region="revendreth"
         videoId="tGiXZq6Gt3M"></Sidebar>
-      <Content data={fakeJson}></Content>
+      <Content data={data}></Content>
     </div>
   );
 };

@@ -2,8 +2,7 @@ import classnames from 'classnames';
 import React from 'react';
 import {Content} from '../../components/Content';
 import {Sidebar} from '../../components/Sidebar';
-
-const fakeJson = [];
+import data from './data.json';
 
 export default () => {
   const classNames = classnames('s-dungeon dungeon-soa');
@@ -14,7 +13,7 @@ export default () => {
         name="Spires of Ascension"
         region="bastion"
         videoId="jeC0peYOB8E"></Sidebar>
-      <Content data={fakeJson}></Content>
+      <Content data={data}></Content>
     </div>
   );
 };

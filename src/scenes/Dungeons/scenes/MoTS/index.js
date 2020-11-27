@@ -2,8 +2,7 @@ import classnames from 'classnames';
 import React from 'react';
 import {Content} from '../../components/Content';
 import {Sidebar} from '../../components/Sidebar';
-
-const fakeJson = [];
+import data from './data.json';
 
 export default () => {
   const classNames = classnames('s-dungeon dungeon-mots');
@@ -14,7 +13,7 @@ export default () => {
         name="Mist of Tirna Scithe"
         region="ardenweald"
         videoId="tcdBT17n5oQ"></Sidebar>
-      <Content data={fakeJson}></Content>
+      <Content data={data}></Content>
     </div>
   );
 };
