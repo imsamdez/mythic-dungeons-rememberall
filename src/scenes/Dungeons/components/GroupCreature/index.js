@@ -18,7 +18,7 @@ export const GroupCreature = (props) => {
         </div>
       </div>
       <div className="creatures">
-        {creatures.map((c) /** creature */ => (
+        {creatures.map(({creature: c}) /** creature */ => (
           <Creature
             key={randomstring.generate(5)}
             name={c.name}
