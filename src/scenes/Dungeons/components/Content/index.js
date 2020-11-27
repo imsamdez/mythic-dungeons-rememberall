@@ -27,7 +27,7 @@ export const Content = (props) => {
         </div>
         <div className="content-quick-nav">
           {data.map((cg) /** creatureGroup */ => (
-            <a href={`#cg-${cg.id}`}>
+            <a href={`#cg-${cg.id}`} key={cg.id}>
               {cg.creatures.reduce(
                 (str, c) =>
                   str
