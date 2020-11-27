@@ -30,7 +30,9 @@ export const Content = (props) => {
             <a href={`#cg-${cg.id}`}>
               {cg.creatures.reduce(
                 (str, c) =>
-                  str.concat(str.length !== 0 ? ', ' : '').concat(c.name),
+                  str
+                    .concat(str.length !== 0 ? ', ' : '')
+                    .concat(c.creature.name),
                 ''
               )}
             </a>
