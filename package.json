@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "git checkout stage & release-it --only-version & git checkout main",
+    "release": "git checkout stage && release-it --only-version && git checkout main",
     "merge:stage": "node ./scripts/merge_main_to_stage.js"
   },
   "eslintConfig": {
