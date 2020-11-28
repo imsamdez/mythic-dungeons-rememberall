@@ -1,3 +1,4 @@
+import {Desktop} from 'components/Responsive';
 import PropTypes from 'prop-types';
 import randomstring from 'randomstring';
 import React from 'react';
@@ -25,19 +26,21 @@ export const Content = (props) => {
               watchAt={cg.watchAt}></GroupCreature>
           ))}
         </div>
-        <div className="content-quick-nav">
-          {data.map((cg) /** creatureGroup */ => (
-            <a href={`#cg-${cg.id}`} key={cg.id}>
-              {cg.creatures.reduce(
-                (str, c) =>
-                  str
-                    .concat(str.length !== 0 ? ', ' : '')
-                    .concat(c.creature.name),
-                ''
-              )}
-            </a>
-          ))}
-        </div>
+        <Desktop>
+          <div className="content-quick-nav">
+            {data.map((cg) /** creatureGroup */ => (
+              <a href={`#cg-${cg.id}`} key={cg.id}>
+                {cg.creatures.reduce(
+                  (str, c) =>
+                    str
+                      .concat(str.length !== 0 ? ', ' : '')
+                      .concat(c.creature.name),
+                  ''
+                )}
+              </a>
+            ))}
+          </div>
+        </Desktop>
       </div>
       <div className="content-footer">
         <div>

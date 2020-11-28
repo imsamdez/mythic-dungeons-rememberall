@@ -52,8 +52,8 @@ export class Sidebar extends React.Component {
     const {videoId} = this.props;
 
     this.player = YouTubePlayer('youtube_player', {
-      width: 560,
-      height: 315,
+      width: '100%',
+      height: '100%',
       videoId,
     });
     this.subPlayerEventEmitter = PlayerEmitter.addListener(
