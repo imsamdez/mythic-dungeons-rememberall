@@ -47,3 +47,32 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .dg-content {
+    overflow-y: auto;
+    height: unset;
+    .content-wrapper {
+      height: calc(100% - 40px);
+    }
+    .content-footer {
+      height: 40px;
+      font-size: 10px;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 8px;
+      box-sizing: border-box;
+      justify-content: center;
+      & > div {
+        margin-right: 12px;
+        &:last-child {
+          margin-right: 0;
+        }
+
+        i {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

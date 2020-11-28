@@ -12,6 +12,11 @@
   box-shadow: 0px 0px 4px black;
   color: #ffffff;
   cursor: pointer;
+  @media (min-width: 0) and (max-width: 480px) {
+    & {
+      width: 250px;
+    }
+  }
   &::before {
     content: '';
     position: absolute;
