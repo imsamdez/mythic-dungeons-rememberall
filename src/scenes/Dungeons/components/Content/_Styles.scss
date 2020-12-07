@@ -12,12 +12,14 @@
       padding-top: 62px;
     }
     .content-quick-nav {
+      overflow-y: scroll;
       font-size: 11px;
-      height: 80%;
-      flex: 0 0 160px;
+      height: 100%;
+      flex: 0 0 240px;
       border-left: 1px solid rgba(255, 255, 255, 0.05);
       align-self: center;
-      padding: 34px;
+      padding: 24px 24px 0 24px;
+      box-sizing: border-box;
 
       a {
         display: block;
