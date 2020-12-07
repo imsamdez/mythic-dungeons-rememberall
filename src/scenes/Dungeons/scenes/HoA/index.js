@@ -12,7 +12,7 @@ export default () => {
       <Sidebar
         name="Halls of Atonement"
         region="revendreth"
-        videoId="tGiXZq6Gt3M"></Sidebar>
+        videoId="Q9-QE6WBSpg"></Sidebar>
       <Content data={data}></Content>
     </div>
   );
